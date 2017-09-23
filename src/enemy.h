@@ -1,10 +1,11 @@
 #pragma once
+#include "Types.h"
 
-class enemy // needs implementation
+class enemy
 {
   public:
-    unsigned int getHealth();
+    UInt getHealth() const;
     void setHealth(const unsigned int newHealth);
   private:
-    unsigned int health;
+    UInt health;
 };
