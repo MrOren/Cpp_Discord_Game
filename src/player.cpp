@@ -1,10 +1,16 @@
 #include "player.h"
 
-std::string player::getName()
+std::string player::getName() const
 {
-  return name;
-} // needs a new line here
-void player::setName(const std::string& newName)
+	return name;
+}
+void player::setName(const String& newName)
 {
-  name = newName;
-} // needs rest of implementations below
+		name = newName;
+}
+UInt player::getHealth() const {
+	return health;
+}
+void player::setHealth(const UInt newHealth) {
+	health = newHealth;
+}
