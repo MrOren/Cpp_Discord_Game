@@ -5,7 +5,7 @@ class enemy
 {
   public:
     UInt getHealth() const;
-    void setHealth(const unsigned int newHealth);
+    void setHealth(const  UInt newHealth);
   private:
     UInt health;
 };
